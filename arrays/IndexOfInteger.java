@@ -21,6 +21,7 @@ public class IndexOfInteger {
                         System.out.println(secondInput + " is at index " + i);
                     }
                 }
+                break;
             } else {
                 list.add(input);
             }

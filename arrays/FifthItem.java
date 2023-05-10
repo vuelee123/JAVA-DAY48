@@ -13,11 +13,12 @@ public class FifthItem {
             String input = scanner.nextLine();
             if (input.isEmpty()){
                 System.out.println("The fifth item in the list is: " + listOfStrings.get(4));
+                break;
             }else{
                 listOfStrings.add(input);
-
             }
         }
     }
+
 }
 

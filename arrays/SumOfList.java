@@ -20,6 +20,7 @@ public class SumOfList {
                 for(int i = 0; i <list.size(); i ++)
                     sum += list.get(i);
                 System.out.print("The sum of that list is: "+ sum);
+                break;
             }else{
                 list.add(userInput);
             }

@@ -13,6 +13,7 @@ public class LastItem {
             String input = scanner.nextLine();
             if (input.isEmpty()){
                 System.out.println("The last item in the list is:  " + listOfStrings.get(listOfStrings.size()-1));
+                break;
             }else {
                 listOfStrings.add(input);
             }

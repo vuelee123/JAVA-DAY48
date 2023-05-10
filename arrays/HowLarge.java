@@ -13,6 +13,7 @@ public class HowLarge {
             String input = scanner.nextLine();
             if (input.isEmpty()){
                 System.out.println("the total amount of items in the list was: " + listOfStrings.size());
+                break;
             }else {
                 listOfStrings.add(input);
             }
